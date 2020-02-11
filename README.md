@@ -13,10 +13,14 @@ Both agent can perform 4 actions left, right, up and down.
 ## Reward logic
 
 if agent_A catch enemy = +10
+
 if agent_B catch enemy = +10
+
 if agent collide with each other = -10
+
 step penalty = -1
+
 if both agent catch the enemy at same time = +500
 
 
-![]()
+![](multi_agent_SARSA.gif)
